@@ -172,9 +172,7 @@ NSString * const CGLMailHelperClientPreferenceDefaultsKey = @"CGLMail_ClientPref
 }
 
 + (void)showNoMailAvailableAlert {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"No Mail Available", @"No Mail Available") message:NSLocalizedString(@"It appears you have not set up an email account on this device.", @"Set up account message.") delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", @"OK") otherButtonTitles:nil];
     
-    [alert show];
 }
 
 - (BOOL)prefersGmail {
